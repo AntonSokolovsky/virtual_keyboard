@@ -11,6 +11,16 @@
     margin: 0 auto;
     background-color: azure;
 }
+.input {
+    display: block;
+    width: 1326px;
+    height: 200px;
+    margin: 10px auto 10px;
+    padding: 10px;
+    font-size: 26px;
+    color: #1A1A1A;
+    resize: none;
+}
 .keyboard {
     width: 1326px;
     height: 360px;
@@ -66,4 +76,8 @@
 }
 .space {
     width: 468px;
+}
+.pressed {
+    background-color: #6d4cef;
+    color: #F8F8F8;
 }
